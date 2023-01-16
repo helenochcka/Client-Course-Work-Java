@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="apMainWindow" onMouseClicked="#OnWindowClicked" prefHeight="660.0" prefWidth="840.0" style="-fx-background-color: PINK;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clientcourseworkjava.Controller">
+    <children>
+        <VBox layoutX="334.0" layoutY="75.0" prefHeight="230.0" prefWidth="151.0" spacing="15.0">
+            <children>
+                <Label prefHeight="20.0" prefWidth="211.0" style="-fx-border-color: pink;" text="Proof of ownership (№):">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label style="-fx-border-color: pink;" text="Owner:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label style="-fx-border-color: pink;" text="Real estate type:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label style="-fx-border-color: pink;" text="Location:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            <Label layoutX="10.0" layoutY="150.0" style="-fx-border-color: pink;" text="Square footage:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="185.0" style="-fx-border-color: pink;" text="Date of purchase:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </VBox>
+        <VBox layoutX="502.0" layoutY="73.0" prefHeight="174.0" prefWidth="272.0" spacing="10.0" style="-fx-border-width: 2;">
+            <children>
+                <TextField fx:id="tfProofOfOwnership" style="-fx-border-color: black;" />
+                <TextField fx:id="tfOwner" layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="213.0" style="-fx-border-color: black;" />
+                <TextField fx:id="tfRealEstateType" layoutX="10.0" layoutY="35.0" style="-fx-border-color: black;" />
+                <TextField fx:id="tfLocation" layoutX="10.0" layoutY="85.0" style="-fx-border-color: black;" />
+            <TextField fx:id="tfSquareFootage" layoutX="10.0" layoutY="150.0" style="-fx-border-color: black;" />
+            <TextField fx:id="tfDateOfPurchase" layoutX="10.0" layoutY="185.0" style="-fx-border-color: black;" />
+            </children>
+        </VBox>
+        <TableView fx:id="tvEntries" layoutX="13.0" layoutY="348.0" prefHeight="298.0" prefWidth="814.0" style="-fx-border-color: black; -fx-background-color: pink;">
+            <columns>
+                <TableColumn fx:id="colID" prefWidth="61.0" text="ID" />
+                <TableColumn fx:id="colProofOfOwnership" prefWidth="199.0" text="Proof of ownership (№)" />
+                <TableColumn fx:id="colOwner" prefWidth="83.0" text="Owner" />
+                <TableColumn fx:id="colRealEstateType" minWidth="0.0" prefWidth="120.0" text="Real estate type" />
+                <TableColumn fx:id="colLocation" minWidth="0.0" prefWidth="109.0" text="Location" />
+            <TableColumn fx:id="colSquareFootage" minWidth="0.0" prefWidth="106.0" text="Square footage" />
+            <TableColumn fx:id="colDateOfPurchase" minWidth="0.0" prefWidth="135.0" text="Date of purchase" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnInsert" layoutX="502.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#OnButtonInsertClicked" prefHeight="25.0" prefWidth="85.0" style="-fx-font-style: italic; -fx-background-color: DarkSeaGreen;" text="Insert" />
+        <Button fx:id="btnUpdate" layoutX="596.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#OnButtonUpdateClicked" prefHeight="25.0" prefWidth="107.0" style="-fx-font-style: italic; -fx-background-color: DarkSeaGreen;" text="Edit" />
+        <Button fx:id="btnDelete" layoutX="710.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#OnButtonDeleteClicked" prefHeight="25.0" prefWidth="76.0" style="-fx-font-style: italic; -fx-background-color: DarkSeaGreen;" text="Delete" />
+      <Label layoutX="14.0" layoutY="316.0" style="-fx-border-color: pink;" text="Search:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfSearch" layoutX="66.0" layoutY="314.0" style="-fx-border-color: black;" />
+      <Button fx:id="btnFind" layoutX="227.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#OnButtonFindClicked" prefHeight="8.0" prefWidth="22.0" style="-fx-font-style: italic; -fx-background-color: DarkSeaGreen;" />
+      <Label layoutX="15.0" layoutY="14.0" style="-fx-font-family: Impact; -fx-font-size: 26;" text="Real estate. Digital document storage. Elena Osadchuk. Course Work Java." />
+    </children>
+</AnchorPane>

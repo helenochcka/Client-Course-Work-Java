@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4a08295-ee6f-4a69-bc78-fc0de9d9fbbf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/model/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/model/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/DeleteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/DeleteHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/Packet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/PacketReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/PacketType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/PacketType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/ReadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/ReadHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/RequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/UpdateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcourseworkjava/net/UpdateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/clientcourseworkjava/view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/clientcourseworkjava/view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JH7IKBAZ2Ghex9vaowGI6L5AEO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev/Server-Course-Work-Java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\Client-Course-Work-Java\src\main\java\com\example\clientcourseworkjava\net" />
+      <recent name="C:\Dev\Client-Course-Work-Java\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\Client-Course-Work-Java\src\main\resources" />
+      <recent name="C:\Dev\Client-Course-Work-Java\src\main\resources\com\example\clientcourseworkjava" />
+      <recent name="C:\Dev\Client-Course-Work-Java\src\main\java\com\example\clientcourseworkjava\net" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.clientcourseworkjava.net" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.clientcourseworkjava.Client" />
+      <module name="Client-Course-Work-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4a08295-ee6f-4a69-bc78-fc0de9d9fbbf" name="Changes" comment="" />
+      <created>1671723077735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671723077735</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Client_Course_Work_Java$Client.ic" NAME="Client Coverage Results" MODIFIED="1673907097131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
